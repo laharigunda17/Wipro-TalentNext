@@ -2,21 +2,18 @@ package jfub;
 
 import java.util.Scanner;
 
-public class Question4 {
+//import java.util.Scanner;
+public class Question6 {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		int num=sc.nextInt();
-		if(num>0) {
-			System.out.println("Positive");
-		}
-		else if(num<0) {
-			System.out.println("Negative");
+		if((num % 2)==0)
+		{
+			System.out.println("Even");
 		}
 		else {
-			System.out.println("Zero");
+			System.out.println("Odd");
 		}
-
 	}
-
 }
